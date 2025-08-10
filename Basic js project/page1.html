@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<h1>JAVASCript PRACTICE </h1>
+
+<div class="container1">
+    <h2>Calculator.</h2>
+
+    <div class="calculatorhandler">
+          <div class="number">
+               <input id="num1" type="number" placeholder="enter first number">
+               <input id="num2" type="number" placeholder="enter second number">
+          </div>
+
+             <div class="buttons">
+                  <button onclick="calculator('+')">ADD</button>
+                  <button onclick="calculator('-')">SUB</button>
+                  <button onclick="calculator('/')">DIV</button>
+                  <button onclick="calculator('*')">MUL</button>
+            </div>
+
+            <div id="result" class="result">RESULT: </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="container2">
+    <h2>Get any Number of Table.</h2>
+    <div class="tablehandler">
+        <div class="main">
+             <input id="num3" type="number" placeholder="enter any number">
+             <button onclick="table()">click me</button>
+        </div>
+
+             <div id="output">RESULT:</div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="container3">
+    <h2>Check the "EVEN" || "ODD" Number. </h2>
+
+    <div class="EvenOddHandler">
+        <input type="number" id="num4" placeholder="enter the number">
+        <button onclick="even_checker()">answer</button>
+        
+        <div id="evenoutput">RESULT:</div>
+    
+    </div>
+</div>
+
+
+
+
+
+<div class="container4">
+    <h2>Find the Greatest Number</h2>
+
+    <div class="maxhandler">
+        <div class="maxinput">
+                <input type="number" id="a" placeholder="enter a number">
+                <input type="number" id="b" placeholder="enter a number">
+                <input type="number" id="c" placeholder="enter a number">
+        </div>
+        <button onclick="findmax()">answer</button>
+        <div id="maxoutput">RESULT:</div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="container5">
+    <h2>Check your Grade </h2>
+
+    <div class="GRADE">
+        <input type="number" id="num5" placeholder="enter the number">
+        <button onclick="grade()">CHECK</button>
+        
+        <div id="gradeoutput">RESULT:</div>
+    
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container4">
+    <h2>Add Two Strings</h2>
+
+    <div class="maxhandler">
+        <div class="maxinput">
+                <input type="text" id="num6" placeholder="enter a word">
+                <input type="text" id="num7" placeholder="enter a word">             
+        </div>
+        <button onclick="string_finder()">Concat</button>
+        <div id="stringout">RESULT:</div>
+    </div>
+
+
+
+
+    <div class="nextpage">
+<button onclick="window.location.href='calc.html'" ><i class="fa-solid fa-arrow-left"></i></button>
+<button onclick="window.location.href='calc.html'" class="large_button">1</button>
+<button onclick="window.location.href='function.html'">2</button>
+<button onclick="window.location.href='function.html'"><i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+
+
+
+
+    
+  
+</div>
+
+
+<footer>
+    <h3>Thank you </h3>
+
+   
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="calc.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="function_container">
+<h1>Solving Functions Question using "prompt". </h1>
+
+<h2> Write a function called greet that takes a name as a parameter and logs a greeting message.</h2>
+        <p id="demo"></p>
+        <button onclick="greet()">greeting message</button>
+        
+        <h2> Write a function that takes a string representing a number (e.g., "42") and converts it to an actual number. Then, check if the number is greater than 50 and return a corresponding message.</h2>
+        <p id="demo2"></p>
+        <button onclick="greater_checker_number()">click to get your answer</button>
+        
+        <h2>Write a function that accepts a string with a number and converts it to a floating-point number. Return the result of multiplying the number by 2.</h2>
+        <p id="demo3"></p>
+        <button onclick="float_number()">get multiple of 2 with any number</button>
+        
+        <h2> Create a function that checks if the number is between 1 and 100 (inclusive). If it is, return "Valid", otherwise return "Invalid"</h2>
+        <p id="demo4"></p>
+        <button onclick="valid()">valid number checker</button>
+        
+        <h2> Write a function that takes a grade (between 0 and 100) and returns the letter grade: "A" for scores between 90 and 100, "B" for scores between 80 and 89, "C" for scores between 70 and 79, and "F" for scores below 70.</h2>
+        <p id="demo5"></p>
+        <button onclick="grade()">grade checker</button>
+        
+        <h2> Write a function called isEven that takes a number as a parameter and returns true if the number is even and false otherwise</h2>
+        <p id="demo6"></p>
+        <button onclick="iseven()">iseven or odd checker</button>
+        
+
+        <h2> Write a function that takes a string and checks if it contains only numbers. Return "Valid number" if the string contains only digits, otherwise return "Invalid number".</h2>
+        <p id="demo7"></p>
+        <button onclick="Number_checker()">Number checker</button>
+        
+        <h2> Create a function that takes a string as an argument and returns "Vowel" if the string is a vowel (a, e, i, o, u) and "Not Vowel" if it is not.</h2>
+        <p id="demo8"></p>
+        <button onclick="vowel()">vowel checker</button>
+        
+        <h2>Create a function that takes a string representing a day of the week (e.g., "Monday", "Saturday") and returns "Weekday" if it is a weekday (Monday through Friday), and "Weekend" if it is a Saturday or Sunday.</h2>
+        <P id="demo9"></P>
+        <button onclick="weekend_checker()">weekend checker</button>
+        
+        <h2> Write a function that takes a number as an argument and returns "High" if the number is greater than 100, "Medium" if the number is between 50 and 100, and "Low" if it is less than 50.</h2>
+        <p id="demo10"></p>
+        <button onclick="number_range()">number range checker</button>
+        
+        <h2>Write a function that takes a string representing a month (e.g., "January", "August") and returns the season in which the month falls. Assume that "Winter" is from December to February, "Spring" is from March to May, "Summer" is from June to August, and "Fall" is from September to November.</h2>
+        <p id="demo11"></p>
+        <button onclick="season_checker()">season_checker</button>
+        
+        <h2> Write a function that takes a year as an argument and returns whether the year is a leap year. A year is a leap year if it is divisible by 4, but not divisible by 100 unless it is also divisible by 400.</h2>
+        <p id="demo12"></p>
+        <button onclick="leap()">leap year</button>
+        
+        <h2>Write a function that takes a number as input and checks if the number is a multiple of 7 or 11. If it is, return "Multiple of 7 or 11", otherwise return "Not a multiple".</h2>
+        <p id="demo13"></p>
+        <button oncanplay="Divisible()">7_11 divisible or not</button>
+        
+        
+        <h2> Write a function called isDivisibleByBoth that takes a number and checks if it’s divisible by both 3 and 5.</h2>
+        <p id="demo14"></p>
+        <button onclick="isDivisibleByBoth()">Check 3 and 5</button>
+        
+        <h2> Create a function called timeToSeconds that takes two parameters, hours and minutes, and returns the total time in seconds.</h2>
+        <p id="demo15"></p>
+        <button onclick="getTimeInSeconds()">Convert Time</button>
+        
+        <h2>Create a function called ageInDays that takes a person’s age in years and returns their approximate age in days.</h2>
+        <p id="demo16"></p>
+        <button onclick="ageInDays()">ageInDays</button>
+        
+        <h2> Write a function factorial that takes a positive integer n and returns its factorial using a for loop.</h2>
+        <p id="demo17"></p>
+        <button onclick="factorial()">Find Factorial</button>
+        
+        <h2>Write a function sumOfOddNumbers that takes a number n and returns the sum of all odd numbers from 1 to n.</h2>
+        <p id="demo18"></p>
+        <button onclick="sumOfOddNumbers()">Calculate Sum of Odd Numbers</button>
+        
+        <h2>Write a function that takes a number and checks if it is a perfect number. A perfect number is a positive integer that is equal to the sum of its proper divisors (excluding the number itself). For example, 6 is a perfect number because 1 + 2 + 3 = 6.</h2>
+        <p id="demo19"></p>
+        <button onclick="checkPerfectNumber()">Check Perfect Number</button>
+
+
+        <h2>Write a function that takes a 3 digit number and check whether number is Armstrong or not. example: 153 is 3 digit armstrong number</h2>
+        <p id="demo20"></p>
+        <button onclick="checkArmstrong()">Check Armstrong</button>
+        
+        <h2> Write a function that take a number and checks if it is a prime number or not. example: 5, 7 is prime numbers</h2>
+        <p id="demo21"></p>
+        <button onclick="isPrime()">isPrime</button>
+        
+        <h2> Write a function that take a number and checks if it is a pallindrom number or not. example: 35253, 5151515 is pallindrom number</h2>
+        <p id="demo22"></p>
+        <button onclick="isPalindrome()">isPalindrome</button>
+        
+        <h2> Write a JavaScript loop to calculate the digital root of a number without using arrays, objects, or strings. The digital root of a number is the single-digit value obtained by an iterative process of summing its digits until a single digit is reached.</h2>
+        <p id="demo23"></p>
+        <button onclick="digitalRoot()">digitalRoot</button>
+        
+        <h2> Write a JavaScript loop to print the first 10 numbers in the Fibonacci sequence, but instead of using arrays or recursion, store only the last two Fibonacci numbers in variables.</h2>
+        <p id="demo24"></p>
+        <button onclick="printFibonacci()">printFibonacci</button>
+        
+        <h2> Write a function that takes a number and checks if it is a perfect number. A perfect number is a positive integer that is equal to the sum of its proper divisors (excluding the number itself). For example, 6 is a perfect number because 1 + 2 + 3 = 6.
+</h2>
+        <p id="demo25"></p>
+        <button onclick="isPerfectNumber()">isPerfectNumber</button>
+        
+        
+        
+    </div>
+
+    <div class="nextpage">
+<button onclick="window.location.href='calc.html'"><i class="fa-solid fa-arrow-left"></i></button>
+<button onclick="window.location.href='calc.html'">1</button>
+<button onclick="window.location.href='function.html'" class="large_button">2</button>
+<button onclick="window.location.href='function.html'"><i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+
+  
+</div>
+
+
+<footer>
+    <h3>Thank you </h3>
+</footer>
+
+
+
+
+
+    <script src="function.js"  ></script>
+</body>
+</html>
